@@ -1,0 +1,86 @@
+{
+    "general": {
+        "guest": "Huésped",
+        "description": "Haciendo tu vida en PHP mas fácil"
+    },
+
+    "exception": {
+        "created": "Exception message created on language file {0}",
+        "exception": "Error: {0} en el archivo {1} en la linea {2}",
+        
+        "router": {
+            "method_not_exists": "El metodo {0} no existe"
+        },
+
+        "user": {
+            "characters": "El nombre de usuario debe tener de {0} a {1} caracteres",
+            "invalid_name": "Nombre de usuario inválido, elimina los caracteres especiales",
+            "invalid_email": "Correo electrónico inválido"
+        },
+
+        "config": {
+            "invalid_format": "El archivo de configuracion {0} tiene un formato invalido"
+        },
+
+        "database": {
+            "error": "Ha ocurrido un error en la base de datos: {0}",
+            "pdo_required": "Advanced requiere la extension PDO",
+            "connecting": "Error conectando a el servidor MySQL: {0}",
+            "needed": "Debes configurar un Database en el Bootstrap para poder usar esta característica. Ej: Project::setSQL(new MySQL($host, $port, $username, $password, $database))",
+            "create_table": "Ha ocurrido un error creando la tabla {0}: {1}",
+            "add_column": "Ha ocurrido un error agregando una columna a la tabla {0}: {1}",
+            "modify_column": "Ha ocurrido un error modificando una columna en la tabla {0}: {1}"
+        },
+
+        "file": {
+            "not_exist":"El archivo {0} no existe",
+            "open": "Ha ocurrido un error abriendo el archivo {0}",
+            "write": "Ha ocurrido un error modificando el archivo {0}"
+        },
+
+        "mailer": {
+            "error": "Ha ocurrido un error enviando el correo electrónico: {0}"
+        }
+    },
+
+    "error": {
+        "parameter_not_string": "(El parametro {0} no es un string)"
+    },
+
+    "template": {
+        "not_exists": "Plantilla {0} no existente",
+        "default": "Nueva plantilla creada en el archivo {0}",
+        "undefined": "Indefinido",
+
+        "welcome": {
+            "description": "Advanced Micro Framework - Crea más haciendo menos"
+        }
+    },
+
+    "time": {
+        "ago": {
+            "just_now": "Hace un momento",
+            "ago": "",
+
+            "singular": {
+                "month": "mes",
+                "week": "semana",
+                "day": "dia",
+                "hour": "hora",
+                "minute": "minuto",
+                "second": "segundo"
+            },
+
+            "plural": {
+                "month": "meses",
+                "week": "semanas",
+                "day": "días",
+                "hour": "horas",
+                "minute": "minutos",
+                "second": "segundos"
+            }
+        }
+    },
+
+    "execution_time": "Este proceso tardó {0}s para completarse\n"
+}
